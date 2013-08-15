@@ -1,11 +1,9 @@
 sublime-yandex-translate
 ========================
-Пока не работающий плагин Яндекс.Перводчик для sublimetext2
+Yandex Translate plugin for SublimeText
 
-Установка:
----------------
-Скопировать папку YaTranslate в папку с плагинами
+Based on https://github.com/valmet/python-yandex-translate
 
-Использование:
+Use:
 ---------------
-Выделить текст, нажать `ctrl+alt+t`
+Select text, press `ctrl+alt+t`

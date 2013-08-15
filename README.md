@@ -18,12 +18,10 @@ b) Manually:
 Clone or [download](https://github.com/pafnuty/sublime-yandex-translate/archive/master.zip) git repo into your packages folder (in ST, find Browse Packages... menu item to open this folder)
 
 
-3. Set API-key in user settings:
-4. 
-`{
+3. Set API-key in user settings: ```{
     "key": "YOUR_KEY",
     "output_language": "en-ru"
-}`
+}```
 
 Use:
 ---------------

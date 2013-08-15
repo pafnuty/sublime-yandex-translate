@@ -1,0 +1,5 @@
+sublime-yandex-translate
+========================
+Use:
+---------------
+Select text, press `ctrl+alt+t`

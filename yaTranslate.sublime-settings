@@ -1,0 +1,5 @@
+{
+	// Get Key http://api.yandex.ru/key/form.xml?service=trnsl
+    "key": false,
+    "output_language": "ru"
+}

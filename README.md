@@ -19,10 +19,12 @@ Clone or [download](https://github.com/pafnuty/sublime-yandex-translate/archive/
 
 
 3. Set API-key in user settings:
+4. 
 `{
     "key": "YOUR_KEY",
     "output_language": "en-ru"
 }`
+
 Use:
 ---------------
 Select text, press `ctrl+alt+t`

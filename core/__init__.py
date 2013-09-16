@@ -1,6 +1,6 @@
 import sublime
 
 if sublime.version() < '3':
-    from translate import *
+    from translate_old import *
 else:
-    from YandexTranslate.core.translate import *
+    from YandexTranslate.core.translate_old import *

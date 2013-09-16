@@ -1,0 +1,24 @@
+
+!!!ATTENTION!!!
+New functionality now need only to specify the language to be translated.
+Instead 'en-ru' now need to write 'en'.
+
+What's new in this version
+--------------------------
+- SublimeText 3 support!
+- Autodetection source language!
+- Added shortcut menu item in the Tools section. Translation command appears only if you select text!
+- Added ability to get all supported service options translation direction.
+
+
+!!!ВНИМАНИЕ!!!
+В связи с новыми функциями теперь достаточно указывать только язык для перевода.
+Вместо 'en-ru' теперь нужно писать 'ru'.
+--- По русски ---
+
+Что нового в этой версии:
+--------------------------
+- Поддержка SublimeText 3 (долгожданная)!
+- Автоопределение языка выделенного текста.
+- Добавлены команды в контекстное меню и в раздел Инструменты. Команда на перевод появляется только если выделен текст!
+- Добавлена возможность получить все, поддерживаемые сервисом, варианты направления перевода.

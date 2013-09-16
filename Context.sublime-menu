@@ -1,0 +1,8 @@
+[
+	{"caption":"-"},
+	{
+		"command": "ya_translate",
+		"id":"ya-translate",
+		"caption":"Translate selected text"
+	}
+]

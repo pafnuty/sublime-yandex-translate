@@ -1,5 +1,23 @@
 [
-  {
+	{
+
+		"id": "tools",
+		"children":
+		[
+			{
+				"caption": "Yandex Translate",
+				"mnemonic": "Y",
+				"id": "yaTranslate",
+				"children":
+				[
+					{ "command": "ya_translate", "caption": "Translate selected text" },
+					{ "caption": "-" },
+					{ "command": "ya_translate_info", "caption": "Show the available options for the transfer of" }
+				]
+			}
+		]
+	},
+	{
 		"caption": "Preferences",
 		"mnemonic": "n",
 		"id": "preferences",
@@ -19,7 +37,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/yaTranslate.sublime-settings",
+									"file": "${packages}/YandexTranslate/yaTranslate.sublime-settings",
 									"platform": "OSX"
 								},
 								"caption": "Settings – Default"
@@ -27,7 +45,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/yaTranslate.sublime-settings",
+									"file": "${packages}/YandexTranslate/yaTranslate.sublime-settings",
 									"platform": "Linux"
 								},
 								"caption": "Settings – Default"
@@ -35,7 +53,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/yaTranslate.sublime-settings",
+									"file": "${packages}/YandexTranslate/yaTranslate.sublime-settings",
 									"platform": "Windows"
 								},
 								"caption": "Settings – Default"
@@ -49,7 +67,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/Default (OSX).sublime-keymap",
+									"file": "${packages}/YandexTranslate/Default (OSX).sublime-keymap",
 									"platform": "OSX"
 								},
 								"caption": "Key Bindings – Default"
@@ -57,7 +75,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/Default (Linux).sublime-keymap",
+									"file": "${packages}/YandexTranslate/Default (Linux).sublime-keymap",
 									"platform": "Linux"
 								},
 								"caption": "Key Bindings – Default"
@@ -65,7 +83,7 @@
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/Yandex Translate/Default (Windows).sublime-keymap",
+									"file": "${packages}/YandexTranslate/Default (Windows).sublime-keymap",
 									"platform": "Windows"
 								},
 								"caption": "Key Bindings – Default"

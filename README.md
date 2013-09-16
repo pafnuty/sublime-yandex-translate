@@ -4,6 +4,12 @@ Yandex Translate plugin for SublimeText
 
 Based on https://github.com/valmet/python-yandex-translate
 
+ATTENTION
+---------------
+New functionality now need only to specify the language to be translated.
+Instead 'en-ru' now need to write 'en'.
+
+
 Install:
 ---------------
 
@@ -20,7 +26,7 @@ Clone or [download](https://github.com/pafnuty/sublime-yandex-translate/archive/
 
 3. Set API-key in user settings: ```{
     "key": "YOUR_KEY",
-    "output_language": "en-ru"
+    "output_language": "ru"
 }```
 
 Use:

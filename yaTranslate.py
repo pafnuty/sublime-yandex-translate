@@ -76,7 +76,6 @@ class YaTranslateInfoCommand(sublime_plugin.TextCommand):
 
 			sublime.status_message(u'API Key not defined!')
 
-
 class YaTranslateToCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		settings = sublime.load_settings("yaTranslate.sublime-settings")
@@ -119,3 +118,7 @@ class YaTranslateToCommand(sublime_plugin.TextCommand):
 				return True
 		return False
 			
+
+def plugin_loaded():
+    global settings
+    settings = sublime.load_settings("yaTranslate.sublime-settings")

@@ -16,12 +16,16 @@ Configure:
 3. Set API-key in user settings:
 {
     "key": "YOUR_KEY",
-    "output_language": "ru"
+    "ui_lang": "ru",
+    "output_language": "ru",
+    "type": "text"
 }
 
 Use:
 ---------------
-Select text, press "ctrl+alt+t" or select "Translate selected text" in context menu
+Select text and:
+- press "ctrl+alt+t" or select "Translate selected text" in context menu
+- press "ctrl+shift+alt+t" or select "Translate selected on..." in context menu to select the language for translation
 
 
 
@@ -31,7 +35,6 @@ Select text, press "ctrl+alt+t" or select "Translate selected text" in context m
 sublime-yandex-translate
 ========================
 Плагин для удобного перевода текста в SublimeText 2 и 3
-
 
 Плагин основан на скрипте: https://github.com/valmet/python-yandex-translate
 
@@ -47,9 +50,13 @@ sublime-yandex-translate
 3. Вставьте полученый API key в файл настроек плагина вместо текста YOUR_KEY:
 {
     "key": "YOUR_KEY",
-    "output_language": "ru"
+    "ui_lang": "ru",
+    "output_language": "ru",
+    "type": "text"
 }
 
 Использование:
 ---------------
-Выберите текст, нажмите хоткей "ctrl+alt+t" или выберите пункт "Translate selected text" в контекстном меню
+Выберите текст:
+- нажмите хоткей "ctrl+alt+t" или выберите пункт "Translate selected text" в контекстном меню
+- нажмите хоткей "ctrl+shift+alt+t" или выберите пункт "Translate selected on..." в контекстном меню для выбора языка перевода

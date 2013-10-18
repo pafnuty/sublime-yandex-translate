@@ -1,0 +1,15 @@
+[
+  {
+    "caption":"Yandex Translate selected text",
+    "command": "ya_translate"
+  },
+  {
+    "caption":"Yandex Translate selected to...",
+    "command": "ya_translate_to"
+  },
+  {
+    "caption":"Yandex Translate Print the available translate variants",
+    "command": "ya_translate_info"
+  }
+]
+

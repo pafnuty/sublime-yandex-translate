@@ -4,5 +4,11 @@
 		"command": "ya_translate",
 		"id":"ya-translate",
 		"caption":"Translate selected text"
+	},
+	{
+		"command": "ya_translate_to",
+		"id":"ya-translate",
+		"caption":"Translate selected to..."
 	}
+	
 ]

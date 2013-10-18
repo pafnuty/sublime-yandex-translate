@@ -1,0 +1,19 @@
+
+What's new in this version:
+--------------------------
+- Added translation of html (tags and classes are not processed)!
+- Implemented translation of multiple selection.
+- Added the ability to translate the selected language (selectable from all supported API languages. Language names will appear in your language (option ui_lang)).
+- Added ability to get all supported service options translation direction (menu item or the call of the command).
+
+
+--- По русски ---
+
+Что нового в этой версии:
+--------------------------
+- Добавлен перевод html (HTML-теги и классы не обрабатываются)!
+- Реализован перевод при множественном выделении.
+- Добавлена возможность переводить на выбранный язык (выбор возможен из всех, поддерживаемых API, языков. Названия языков будут показываться на вашем языке (параметр ui_lang)).
+- Добавлена возможность получить все, поддерживаемые сервисом, варианты направления перевода (пункт меню или вызов команды).
+
+

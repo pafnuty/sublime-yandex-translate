@@ -1,5 +1,6 @@
-{
-	// Get a free API key here http://api.yandex.ru/key/form.xml?service=trnsl
-    "key": false,
-    "output_language": "ru"
+{	
+    "key": false,            // Get a free API key here http://api.yandex.ru/key/form.xml?service=trnsl
+    "ui_lang": "ru",         // Your locale language 
+    "output_language": "ru", // The default language for translation
+    "type": "text"           // or "html"
 }

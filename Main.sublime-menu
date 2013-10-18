@@ -11,8 +11,9 @@
 				"children":
 				[
 					{ "command": "ya_translate", "caption": "Translate selected text" },
+					{ "command": "ya_translate_to", "caption": "Translate selected to..." },
 					{ "caption": "-" },
-					{ "command": "ya_translate_info", "caption": "Show the available options for the transfer of" }
+					{ "command": "ya_translate_info", "caption": "Print the available translate variants" }
 				]
 			}
 		]

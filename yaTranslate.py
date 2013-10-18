@@ -9,10 +9,11 @@ if sublime.version() < '3':
 else:
     from .core import *
 
+settings = sublime.load_settings("yaTranslate.sublime-settings")
+
 class YaTranslateCommand(sublime_plugin.TextCommand):
 	
 	def run(self, edit, output_language = settings.get("output_language")):
-		settings = sublime.load_settings("yaTranslate.sublime-settings")
 		key = settings.get("key")
 		ui_lang = settings.get("ui_lang")
 		if not output_language:

@@ -1,34 +1,66 @@
 sublime-yandex-translate
 ========================
-Yandex Translate plugin for SublimeText
+Yandex Translate plugin for SublimeText 2 and 3
 
 Based on https://github.com/valmet/python-yandex-translate
 
-ATTENTION
+Configure:
 ---------------
-New functionality now need only to specify the language to be translated.
-Instead 'en-ru' now need to write 'en'.
+1. Do not forget to get a free [Yandex API-key](http://api.yandex.ru/key/form.xml?service=trnsl)
 
+	or try this key `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530` 
+	Please, use the tests only, as each key has a limit on number of translations
 
-Install:
----------------
+2. For a list of possible translations in the menu, select "Tools > Yandex Translate > Show the available options for the transfer of"
 
-1. Get the [Yandex API-key](http://api.yandex.ru/key/form.xml?service=trnsl) or try this key `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530` 
-Please, use the tests only, as each key has a limit on number of translations
-2. Install Plugin:
-
-a) With [Package Control](https://sublime.wbond.net/installation):
-Run “Package Control: Install Package” command, find and install `Yandex Translate` plugin.
-
-b) Manually:
-Clone or [download](https://github.com/pafnuty/sublime-yandex-translate/archive/master.zip) git repo into your packages folder (in ST, find Browse Packages... menu item to open this folder)
-
-
-3. Set API-key in user settings: ```{
+3. Set API-key in user settings:
+```
+{
     "key": "YOUR_KEY",
-    "output_language": "ru"
-}```
+    "ui_lang": "ru",
+    "output_language": "ru",
+    "type": "text"
+}
+```
 
 Use:
 ---------------
-Select text, press `ctrl+alt+t`
+Select text and:
+- press `ctrl+alt+t` or select "Translate selected text" in context menu
+- press `ctrl+shift+alt+t` or select "Translate selected on..." in context menu to select the language for translation
+
+
+
+
+---- То же самое на руссом языке ----
+
+sublime-yandex-translate
+========================
+Плагин для удобного перевода текста в SublimeText 2 и 3
+
+Плагин основан на скрипте: https://github.com/valmet/python-yandex-translate
+
+Настройка:
+---------------
+1. Не забудьте получить бесплатный [Yandex API-key](http://api.yandex.ru/key/form.xml?service=trnsl)
+
+	или возьмите этот ключ `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530` 
+	Пожалуйста, используйте этот ключ только для тестов, я им тоже пользуюсь, а у каждого ключа есть ограничение по количеству переводов.
+
+2. Посмотреть возможные направления перевода можно перейдя в меню "Tools > Yandex Translate > Show the available options for the transfer of"
+
+3. Вставьте полученый API key в файл настроек плагина вместо текста YOUR_KEY:
+```
+{
+    "key": "YOUR_KEY",
+    "ui_lang": "ru",
+    "output_language": "ru",
+    "type": "text"
+}
+```
+
+Использование:
+---------------
+Выберите текст:
+- нажмите хоткей `ctrl+alt+t` или выберите пункт "Translate selected text" в контекстном меню
+- нажмите хоткей `ctrl+shift+alt+t` или выберите пункт "Translate selected on..." в контекстном меню для выбора языка перевода

@@ -1,0 +1,11 @@
+
+What's new in this version:
+--------------------------
+- Added automatic display language selection dialog when the selected text is the same language that is specified in the settings (output_language)
+
+
+--- По русски ---
+
+Что нового в этой версии:
+--------------------------
+- Добавлен автоматический показ диалога выбора языка, когда выделенный текст имеет тот же язык, который указан в настройках (output_language)

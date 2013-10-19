@@ -31,13 +31,17 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 
 					detected = translate.detect(selection)
 					if detected:
-						result = translate.translate(selection, detected+'-'+output_language, output_type)
+						if (detected == output_language):
+							self.view.run_command("ya_translate_to")
+							return							
+						else:
+							result = translate.translate(selection, detected+'-'+output_language, output_type)
 					else:
 						sublime.status_message(u'Error! (Look in console)')
 
 					text = (json.dumps(result['text'][0], ensure_ascii = False)).strip('"').replace('\\n', "\n").replace('\\t', "\t").replace('\\"', '"')
 
-					print (text)
+					# print (text)
 					v.replace(edit, region, text)
 					if (result['code'] == 200):
 						sublime.status_message(u'Done! (translate '+detected+' --> '+output_language+')')

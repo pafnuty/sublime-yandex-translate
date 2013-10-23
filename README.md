@@ -1,6 +1,6 @@
 sublime-yandex-translate
 ========================
-![sublime-yandex-translate](https://lh6.googleusercontent.com/9k6uNWmAnmWsTmCJzxmDZtEWYlHTOihyvO3x0sDW_3nRAsUCdcX81Makly8n2B38y-2zqwckyfU)
+![sublime-yandex-translate](https://dl.dropboxusercontent.com/u/8142395/yat.gif)
 
 Yandex Translate plugin for SublimeText 2 and 3
 

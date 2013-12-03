@@ -66,3 +66,7 @@ sublime-yandex-translate
 Выберите текст:
 - нажмите хоткей `ctrl+alt+t` или выберите пункт "Translate selected text" в контекстном меню
 - нажмите хоткей `ctrl+shift+alt+t` или выберите пункт "Translate selected on..." в контекстном меню для выбора языка перевода
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pafnuty/sublime-yandex-translate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

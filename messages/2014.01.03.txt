@@ -5,6 +5,7 @@ What's new in this version:
 --------------------------
 - Fixed bug with incorrect hotkeys by default.
 - Added the README file in the plugin menu.
+- Fixed bug occuring in Sublime Text 2 (https://github.com/pafnuty/sublime-yandex-translate/issues/2#issuecomment-31220150)
 
 
 --- По русски ---
@@ -14,3 +15,4 @@ What's new in this version:
 --------------------------
 - Исправлен баг с неправильным назначением горячих клавиш по умолчанию.
 - Добавлен пункт README в меню плагина.
+- Исправлена ошибка возникающая в Sublime Text 2 (https://github.com/pafnuty/sublime-yandex-translate/issues/2#issuecomment-31220150)

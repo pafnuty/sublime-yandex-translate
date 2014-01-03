@@ -25,8 +25,7 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 
 				if key:
 					v = self.view
-					selection = v.substr(region)
-
+					selection = v.substr(region).encode('utf-8')
 					translate = YandexTranslate(key, ui_lang)
 
 					detected = translate.detect(selection)
@@ -41,7 +40,6 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 
 					text = (json.dumps(result['text'][0], ensure_ascii = False)).strip('"').replace('\\n', "\n").replace('\\t', "\t").replace('\\"', '"')
 
-					# print (text)
 					v.replace(edit, region, text)
 					if (result['code'] == 200):
 						sublime.status_message(u'Done! (translate '+detected+' --> '+output_language+')')
@@ -104,11 +102,7 @@ class YaTranslateToCommand(sublime_plugin.TextCommand):
 
 			def on_done(index):
 				if index >= 0:
-					# print(lkey[index])
 					self.view.run_command("ya_translate", {"output_language": lkey[index]})
-
-
-			# v.replace(edit, v.sel()[0], text)
 
 			self.view.window().show_quick_panel(ltrasl, on_done)
 

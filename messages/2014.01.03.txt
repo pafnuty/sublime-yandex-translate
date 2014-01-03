@@ -1,0 +1,16 @@
+
+HAPPY NEW YEAR!
+
+What's new in this version:
+--------------------------
+- Fixed bug with incorrect hotkeys by default.
+- Added the README file in the plugin menu.
+
+
+--- По русски ---
+С НОВЫМ ГОДОМ!
+
+Что нового в этой версии:
+--------------------------
+- Исправлен баг с неправильным назначением горячих клавиш по умолчанию.
+- Добавлен пункт README в меню плагина.

@@ -34,6 +34,11 @@
 						"caption": "Yandex Translate",
 						"children":
 						[
+							{
+								"command": "open_file",
+								"args": { "file": "${packages}/YandexTranslate/README.md" },
+								"caption": "README"
+							},
 							{ "caption": "-" },
 							{
 								"command": "open_file",

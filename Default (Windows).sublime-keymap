@@ -1,6 +1,4 @@
-[  
-    {   
-        "keys": ["ctrl+alt+t"], "command": "ya_translate",
-        "keys": ["ctrl+shift+alt+t"], "command": "ya_translate_to"
-    }  
-]  
+[
+	{"keys": ["ctrl+alt+t"], "command": "ya_translate"},
+	{"keys": ["ctrl+shift+alt+t"], "command": "ya_translate_to"}  
+]

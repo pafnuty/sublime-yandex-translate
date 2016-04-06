@@ -12,7 +12,7 @@ else:
 settings = sublime.load_settings("yaTranslate.sublime-settings")
 
 class YaTranslateCommand(sublime_plugin.TextCommand):
-	
+
 	def run(self, edit, output_language = settings.get("output_language")):
 		key = settings.get("key")
 		ui_lang = settings.get("ui_lang")
@@ -32,7 +32,7 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 					if detected:
 						if (detected == output_language):
 							self.view.run_command("ya_translate_to")
-							return							
+							return
 						else:
 							result = translate.translate(selection, detected+'-'+output_language, output_type)
 					else:
@@ -42,11 +42,11 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 
 					v.replace(edit, region, text)
 					if (result['code'] == 200):
-						sublime.status_message(u'Done! (translate '+detected+' --> '+output_language+')')
-					else: 
-						sublime.status_message(u'Error! (Look in console)')
+						sublime.status_message(u'Text translated: '+detected+' --> '+output_language)
+					else:
+						sublime.status_message(u'Error of translate text: look in console!')
 
-				else:				
+				else:
 					sublime.status_message(u'API Key not defined!')
 
 
@@ -115,7 +115,7 @@ class YaTranslateToCommand(sublime_plugin.TextCommand):
 			if not region.empty():
 				return True
 		return False
-			
+
 
 def plugin_loaded():
     global settings

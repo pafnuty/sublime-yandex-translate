@@ -13,11 +13,13 @@ settings = sublime.load_settings("yaTranslate.sublime-settings")
 
 class YaTranslateCommand(sublime_plugin.TextCommand):
 
-	def run(self, edit, output_language = settings.get("output_language")):
+	def run(self, edit, output_language = settings.get("output_language"), output_language_additional = settings.get("output_language_additional")):
 		key = settings.get("key")
 		ui_lang = settings.get("ui_lang")
 		if not output_language:
 			output_language = settings.get("output_language")
+		if not output_language_additional:
+			output_language_additional = settings.get("output_language_additional")
 		output_type = settings.get("type")
 
 		for region in self.view.sel():
@@ -31,12 +33,11 @@ class YaTranslateCommand(sublime_plugin.TextCommand):
 					detected = translate.detect(selection)
 					if detected:
 						if (detected == output_language):
-							self.view.run_command("ya_translate_to")
-							return
+							result = translate.translate(selection, detected+'-'+output_language_additional, output_type)
 						else:
 							result = translate.translate(selection, detected+'-'+output_language, output_type)
 					else:
-						sublime.status_message(u'Error! (Look in console)')
+						sublime.status_message(u'Error of translate text: look in console!')
 
 					text = (json.dumps(result['text'][0], ensure_ascii = False)).strip('"').replace('\\n', "\n").replace('\\t', "\t").replace('\\"', '"')
 

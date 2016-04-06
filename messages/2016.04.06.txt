@@ -1,0 +1,14 @@
+
+
+What's new in this version:
+--------------------------
+- Added option output_language_additional. Additional language for the translation (if the text matches the language specified in the parameter output_language it will be translated into the language specified output_language_additional). Thus it is possible to translate the same phrase between the two languages very quickly and easily.
+- Minor improvements of the text errors.
+
+
+--- По русски ---
+
+Что нового в этой версии:
+--------------------------
+- Добавлен параметр output_language_additional. Дополнительный язык для перевода (если текст совпадает с языком, указанным в параметре output_language, он будет переведен на язык, указанный output_language_additional). Таким образом можно переводить одну и ту же фразу между двумя языками очень легко и быстро.
+- Небольшие улучшения текста ошибок.

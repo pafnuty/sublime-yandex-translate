@@ -15,7 +15,7 @@ Configure:
 
 2. For a list of possible translations in the menu, select "Tools > Yandex Translate > Show the available options for the transfer of"
 
-3. Insert the received API key in the plugin settings file (User/yaTranslate.sublime-settings) instead of the text YOUR_KEY:
+3. Insert the received API-key in the plugin settings file (User/yaTranslate.sublime-settings) instead of the text YOUR_KEY:
 ```
 {
     "key": "YOUR_KEY",
@@ -52,7 +52,7 @@ sublime-yandex-translate
 
 2. Посмотреть возможные направления перевода можно перейдя в меню "Tools > Yandex Translate > Show the available options for the transfer of"
 
-3. Вставьте полученый API key в файл настроек плагина (User/yaTranslate.sublime-settings) вместо текста YOUR_KEY:
+3. Вставьте полученый API-key в файл настроек плагина (User/yaTranslate.sublime-settings) вместо текста YOUR_KEY:
 ```
 {
     "key": "YOUR_KEY",

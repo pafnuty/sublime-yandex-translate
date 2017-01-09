@@ -10,12 +10,12 @@ Configure:
 ---------------
 1. Do not forget to get a free [Yandex API-key](http://api.yandex.ru/key/form.xml?service=trnsl)
 
-	or try this key `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530` 
+	or try this key `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530`
 	Please, use the tests only, as each key has a limit on number of translations
 
 2. For a list of possible translations in the menu, select "Tools > Yandex Translate > Show the available options for the transfer of"
 
-3. Set API-key in user settings:
+3. Insert the received API key in the plugin settings file (User/yaTranslate.sublime-settings) instead of the text YOUR_KEY:
 ```
 {
     "key": "YOUR_KEY",
@@ -47,12 +47,12 @@ sublime-yandex-translate
 ---------------
 1. Не забудьте получить бесплатный [Yandex API-key](http://api.yandex.ru/key/form.xml?service=trnsl)
 
-	или возьмите этот ключ `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530` 
+	или возьмите этот ключ `trnsl.1.1.20130705T052930Z.27fcc82ff0c243be.c0e2f80d06217633cd117ad29131aff078a05530`
 	Пожалуйста, используйте этот ключ только для тестов, я им тоже пользуюсь, а у каждого ключа есть ограничение по количеству переводов.
 
 2. Посмотреть возможные направления перевода можно перейдя в меню "Tools > Yandex Translate > Show the available options for the transfer of"
 
-3. Вставьте полученый API key в файл настроек плагина вместо текста YOUR_KEY:
+3. Вставьте полученый API key в файл настроек плагина (User/yaTranslate.sublime-settings) вместо текста YOUR_KEY:
 ```
 {
     "key": "YOUR_KEY",
